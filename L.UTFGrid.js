@@ -166,6 +166,7 @@ L.UTFGrid = L.TileLayer.extend({
             latlng: e.latlng,
             data: result,
             id: (result)? result.id: null,
+	    key: key,
             _tile: tileKey,
             _tileCharCode: tileKey + ':' + charCode
         };
